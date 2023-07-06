@@ -24,7 +24,7 @@ public class Main {
         animals.add(animal1);
         System.out.println(animals);
 
-    Snake snake1 =new Snake("Petr", 5, null, "black", "Natrix", new Owner("Marina"), 0);
+    Snake snake1 = new Snake("Petr", 5, null, "black", "Natrix", new Owner("Marina"), 0);
     System.out.println(snake1);
     snake1.fly(false);
     snake1.toGo(false);
